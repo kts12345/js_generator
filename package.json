@@ -1,0 +1,14 @@
+{
+  "name": "js_generator",
+  "version": "0.0.0",
+  "description": "js_generator",
+  "main": "app.js",
+  "author": {
+    "name": "kts123",
+    "email": ""
+  },
+  "dependencies": {
+    "koa": "^1.2.0",
+    "request": "^2.69.0"
+  }
+}
