@@ -9,5 +9,5 @@ var t_05 = require('./05_toward_await.js');
 //t_01.run();
 //t_02.run();
 //t_03.run();
-//t_04.run();
-t_05.run();
+t_04.run();
+//t_05.run();
