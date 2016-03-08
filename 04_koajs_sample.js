@@ -72,8 +72,10 @@ function* odd_gen(s) {
 }
 
 function* handler() {
+  console.log('start ----------');
   this.body = 'hello koa.  result: ';
   this.body += yield odd_gen(3);
+  console.log('end ------------');
 }
 
 var app = require('koa')();
